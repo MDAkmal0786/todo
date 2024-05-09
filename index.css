@@ -1,0 +1,81 @@
+body{
+  
+   margin : 0 ;
+   background-color : #ff1a8c;
+   color : white;
+   overflow : auto ;
+
+}
+
+.containerMain {
+    display : flex ;
+    justify-content : center ;
+    font-family : 'Poppins', sans-serif ;
+}
+.headerToDo
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.outerTodo
+{
+    background-color: #3c424a;
+    padding: 15px;
+    border-radius: 5px;
+    width: 500px;
+    
+    
+}
+.input{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    outline: none;
+    border: none;
+    width: 430px;
+    height: 25px;
+   
+}
+.addButton
+{
+    background-color:  #ff1a8c; ;
+    padding: 5px;
+    color: white;
+    border: none;
+    height: 35px;
+    width   : 55px;
+}
+
+.svgDiv{
+
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+   
+
+}
+.todoContainer{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom:15px ;
+    border-bottom: black solid 2px;
+   
+}
+.inputClass{
+    background-color:#3c424a ;
+    outline: none;
+    border: none;
+    color: white;
+    font-size:18px;
+    width: 430px;
+}
+.strike{
+     text-decoration: line-through;
+}
